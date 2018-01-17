@@ -6,7 +6,7 @@ setup(
     py_modules=['password_clipper'],
     entry_points="""
         [console_scripts]
-        pwclip=password_clipper
+        pwclip=password_clipper:create_and_copy_password
     """,
     url='',
     license='MIT',
